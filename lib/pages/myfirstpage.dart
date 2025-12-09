@@ -58,7 +58,7 @@ class MyFirstPage extends StatelessWidget {
 
                           Row(
                             children: [
-                              const Icon(cardIcon, color: Color.fromARGB(255, 229, 243, 33), size: 20),
+                              const Icon(Icons.house ,color: Color.fromARGB(255, 243, 33, 121), size: 20),
                               const SizedBox(width: 8),
                               const Text("ที่อยู่   ควนขนุน พัทลุง", style: TextStyle(fontSize: 16)),
                             ],
@@ -67,7 +67,7 @@ class MyFirstPage extends StatelessWidget {
 
                           Row(
                             children: [
-                              const Icon(cardIcon, color: Color.fromARGB(255, 11, 219, 140), size: 20),
+                              const Icon(Icons.phone, color: Color.fromARGB(255, 11, 219, 140), size: 20),
                               const SizedBox(width: 8),
                               const Text("เบอร์โทรศัพท์   0123456789", style: TextStyle(fontSize: 16)),
                             ],
@@ -76,7 +76,7 @@ class MyFirstPage extends StatelessWidget {
 
                           Row(
                             children: [
-                              const Icon(cardIcon, color: Colors.blue, size: 20),
+                              const Icon(Icons.email, color: Colors.blue, size: 20),
                               const SizedBox(width: 8),
                               const Text("อีเมล์   6820230003@tsu.ac.th", style: TextStyle(fontSize: 16)),
                             ],
